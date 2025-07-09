@@ -1,0 +1,27 @@
+programa
+{
+	inclua biblioteca Matematica --> m
+	
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro A
+		inteiro B
+		inteiro C 
+		escreva("qual o valor de A? ", ("\n"))
+			leia(A)
+		escreva("qual o valor de B? ", ("\n"))
+			leia(B)
+		escreva("qual o valor de C? ")
+			leia(C)
+
+		real delta = m.potencia(B,2) - 4 * A * C
+
+		real x1 = (-B + m.raiz(delta, 2)) /2 * A
+			
+		real x2 = (-B - m.raiz(delta, 2)) /2 * A
+
+			escreva("O valor de delta é ", delta, ("\n"), "O valor de x1 é ", x1, ("\n"), "O valor de x2 é ", x2, "\n")
+			escreva("O valor de A é: ", A, ". O valor de B é: ", B, " e o valor de C é: ", C)
+	}
+}
