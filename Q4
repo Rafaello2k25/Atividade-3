@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real temperatura
+
+		escreva("Quantos C° está fazendo na sua cidade? \n")
+			leia(temperatura)
+
+		se(temperatura < 0){
+			escreva("A temperatura está negativa \n")
+		}
+		senao{
+			escreva("A temperatura está positiva")
+		}
+		
+	}
+}
