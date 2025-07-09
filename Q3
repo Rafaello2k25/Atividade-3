@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real km 
+		inteiro dias 
+			escreva("Quantos km você percorreu? \n")
+				leia(km)
+
+			escreva("Quantos dias você ficou com o carro? \n")
+				leia(dias)
+
+		real preco_km = km * 0.15
+		real preco_dias = 60 * dias
+		
+		real total_pagar = preco_km + preco_dias
+
+			escreva("O total a pagar é: ", total_pagar)
+
+
+	
+		
+	}
+}
